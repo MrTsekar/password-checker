@@ -1,4 +1,4 @@
-# Nmap Scanner
+# Password Checker
 The Password Policy Checker is a Flask-based web application that allows users to check the strength of their passwords and analyze password policies. This tool helps individuals and organizations ensure that their passwords meet security standards, promoting better password practices.
 
 
