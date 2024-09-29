@@ -15,7 +15,7 @@ The Password Policy Checker is a Flask-based web application that allows users t
 ## Installation
 
 1. Clone the repository
-     git clone https://github.com/mrtsekar/password-checker.git
+     git clone https://github.com/MrTsekar/password-checker.git
      cd password-checker
 
 2. pip install Flask
