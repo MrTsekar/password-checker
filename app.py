@@ -16,7 +16,7 @@ def check_password_strength(password):
         (re.search(r"[a-z]", password), "Password must contain at least one lowercase letter."),
         (re.search(r"[0-9]", password), "Password must contain at least one digit."),
         (re.search(r"[!@#$%^&*(),.?\":{}|<>]", password), "Password must contain at least one special character."),
-        (password not in COMMON_WEAK_PASSWORDS, "Password is too common and easily guessable.")
+        (password not in COMMON_WEAK_PASSWORDS, "Password found in a data breach.")
     ]
     
     messages = [msg for valid, msg in checks if not valid]
