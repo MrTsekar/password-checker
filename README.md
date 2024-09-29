@@ -8,7 +8,7 @@ The Password Policy Checker is a Flask-based web application that allows users t
 - Customizable Password Policies: Administrators can define password policies, including minimum length and required character types.
 - Real-time Feedback: Users receive immediate feedback on their password strength and suggestions for improvement.
 - Recommendations Generation: The application provides recommendations based on the analysis of the password policy.
-- 
+
 ## Requirements
 - Python 3.x
 
